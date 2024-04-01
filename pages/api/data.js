@@ -1,11 +1,5 @@
 // pages/api/data.js
-
-// // Amplify
-// import { Amplify } from 'aws-amplify';
-// import amplifyconfig from '../../src/amplifyconfiguration.json';
-// Amplify.configure(amplifyconfig);
-
-export default function handler(req, res) {
+export default async function handler(req, res) {
     console.log('API 라우트가 호출되었습니다.');
 
     if (req.method === 'GET') {
@@ -19,7 +13,11 @@ export default function handler(req, res) {
         res.status(200).json(json_response);
     }
     else if (req.method === 'POST') {
-        // POST 요청을 처리하는 로직
+        // POST 요청의 본문에서 데이터를 추출
+        const body = await req.body;
+        // 추출한 데이터를 콘솔에 출력
+        console.log('POST 요청 데이터:', body);
+        
         const json_response = {
             "data": ["POST"]
         };
