@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-posebitback-dev-131439-authRole",
+      "UnauthRoleArn": "arn:aws:iam::366603895491:role/amplify-posebitback-dev-131439-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::366603895491:role/amplify-posebitback-dev-131439-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-posebitback-dev-131439-deployment",
+      "UnauthRoleName": "amplify-posebitback-dev-131439-unauthRole",
+      "StackName": "amplify-posebitback-dev-131439",
+      "StackId": "arn:aws:cloudformation:us-west-2:366603895491:stack/amplify-posebitback-dev-131439/5d74d4e0-efde-11ee-9db3-0a97fa05d0c1",
+      "AmplifyAppId": "dtrtaz7lpkgqc"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dtrtaz7lpkgqc",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
